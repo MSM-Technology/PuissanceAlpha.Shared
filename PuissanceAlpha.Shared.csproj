@@ -10,6 +10,8 @@
     <Company>MSM-Technology</Company>
     <Description>Pour la communication entre l'API et l'intranet</Description>
     <Copyright>2022</Copyright>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/MSM-Technology/PuissanceAlpha.Shared</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
