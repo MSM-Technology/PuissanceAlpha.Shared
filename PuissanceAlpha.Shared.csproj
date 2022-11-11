@@ -1,19 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Title>Objets communs Puissance-Alpha</Title>
-    <Authors>Guillaume JAY</Authors>
-    <Company>MSM-Technology</Company>
-    <Description>Pour la communication entre l'API et l'intranet</Description>
-    <Copyright>2022</Copyright>
-  </PropertyGroup>
+	<PropertyGroup>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>Objets communs Puissance-Alpha</Title>
+		<Authors>Guillaume JAY</Authors>
+		<Company>MSM-Technology</Company>
+		<Description>Pour la communication entre l'API et l'intranet</Description>
+		<Copyright>2022</Copyright>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/MSM-Technology/PuissanceAlpha.Shared</RepositoryUrl>
+		<TargetFramework>net6.0</TargetFramework>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+	</ItemGroup>
 
 </Project>
